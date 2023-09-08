@@ -1,0 +1,18 @@
+@media screen and (max-width: 1024px) {
+  main {
+    margin: 1rem;
+    text-align: center;
+  }
+
+  header {
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  footer {
+    height: 10vh;
+  }
+  section article div ul li {
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,31 @@
+@media screen and(min-width:600px) {
+  article div ul li a {
+    font-size: 1.5rem;
+    display: grid;
+    justify-content: center;
+    gap: 0.8rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: (2, 30%);
+    width: 100%;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario-nuevo {
+    margin-left: 2rem;
+  }
+  main {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  .navbar-brand img {
+    width: 150px;
+  }
+  .mi-bebe {
+    font-size: 1.5rem;
+    text-align: justify;
+    justify-content: center;
+  }
+}

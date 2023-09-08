@@ -1,0 +1,15 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+section {
+  form {
+    width: 65%;
+    div {
+      @include flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: left;
+      height: 90vh;
+    }
+  }
+}
